@@ -23,3 +23,16 @@ backend/.env
 
 # ---------- Vite cache ----------
 .vite/
+
+
+# Django / Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+db.sqlite3
+media/
+staticfiles/
+.env
+.env.*
