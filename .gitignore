@@ -1,21 +1,27 @@
 # =========================
-# OS / Editor / IDE
+# OS / Editor
 # =========================
 .DS_Store
 Thumbs.db
 
 .vscode/
-!.vscode/extensions.json
-
 .idea/
+
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
-*.sw?
 
 # =========================
-# Node / Vite / Frontend
+# Environment files
+# =========================
+.env
+.env.*
+!.env.example
+backend/.env
+
+# =========================
+# Node / Vite
 # =========================
 node_modules/
 dist/
@@ -32,60 +38,23 @@ lerna-debug.log*
 # =========================
 # Python / Django
 # =========================
-# Virtual environments
+backend/.venv/
 .venv/
 venv/
 ENV/
 env/
-backend/.venv/
 
-# Python cache / compiled
 __pycache__/
 *.py[cod]
-*.pyd
-*.pyo
 
-# =========================
-# Django local artifacts
-# =========================
-# SQLite (if ever used)
-db.sqlite3
+# Django DB (if sqlite ever used)
 *.sqlite3
 
-# Media uploads + collected static
-backend/media/
+# Django user-generated files + collected static
 media/
-backend/staticfiles/
 staticfiles/
 
-# Django static (if you ever generate locally)
-backend/static/
-static/
-
-# =========================
-# Environment files / Secrets
-# =========================
-.env
-backend/.env
-.env.*
-!*.example
-
-# =========================
-# Testing / Coverage
-# =========================
+# Python tooling caches
 .pytest_cache/
-.coverage
-htmlcov/
-coverage.xml
-
-# =========================
-# Type check / Lint caches
-# =========================
 .mypy_cache/
 .ruff_cache/
-
-# =========================
-# Build / Tool caches
-# =========================
-*.egg-info/
-pip-wheel-metadata/
