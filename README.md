@@ -229,32 +229,6 @@ hospital-information-system-ophthalmology/
     Home.tsx
   services/
     dataService.ts
-  assets/
-    screenshots/
-```
-
----
-
-## Screenshots
-
-Add screenshots here after uploading them to the repository.
-
-Recommended screenshots:
-
-```text
-assets/screenshots/home-page.png
-assets/screenshots/login-page.png
-assets/screenshots/dashboard.png
-assets/screenshots/appointments.png
-assets/screenshots/visit-notes.png
-assets/screenshots/database-view.png
-```
-
-Example Markdown:
-
-```md
-![Dashboard](assets/screenshots/dashboard.png)
-![Appointments Page](assets/screenshots/appointments.png)
 ```
 
 ---
@@ -291,7 +265,6 @@ This project strengthened my understanding of:
 - Add role-based permission documentation
 - Add test cases for major workflows
 - Add deployment guide
-- Add screenshots and demo video
 - Improve medical file viewer support
 - Add audit logs for healthcare actions
 
